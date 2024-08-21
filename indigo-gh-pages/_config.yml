@@ -102,14 +102,8 @@ plugins:
   - jemoji
 
 compress_html:
-  ignore:
     envs:
       - development
       - stage
 
-exclude:
-  [
-    "README.md",
-    "FAQ.md",
-    "vendor",
-  ]
+
